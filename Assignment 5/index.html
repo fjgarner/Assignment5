@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+
+<html>
+<head>
+    <title>Assignment 5</title>
+    <link rel="stylesheet" type="text/css" href="styles/Assignment5.css"/>
+    <script src="js/Assignment5.js"></script>
+</head>
+
+<body>
+    <section id="title">
+    <h1>Assignment 5</h1>
+    <hr>
+    <h2>Input</h2>
+        <select onchange="MenuChoice()" id="Menu">
+            <option>Please select a section</option>
+            <option>Display Customer List</option>
+            <option>Display Customer Order History</option>
+            <option>Display List of Orders</option>
+        </select>
+    </section>
+    <hr>
+    <h2>Output</h2>
+    <section id="custlist" class="custlist">
+        <h2>Customer List</h2>
+        <button onclick="GetListHist()" id="list">Get Customer List</button>
+        <hr>
+        <br>
+        <label id="custlistdis">Display Customer List here</label>
+    </section>
+    <section id="custordhis" class="custordhis">
+        <h2>Customer Order History</h2>
+        <label>Please enter the Customer ID: </label>
+        <input type="text" id="custid">
+        <br>
+        <button onclick="GetOrdHis()" id="ordhist">Get Order History</button>
+        <hr>
+        <br>
+        <label id="ordhisdis">Display Customer Order History here</label>
+    </section>
+    <section id="custlioford" class="custlioford">
+        <h2>List of Orders</h2>
+        <label>Please enter the Customer ID: </label>
+        <input type="text" id="custid2">
+        <br>
+        <button onclick="GetListOrd()" id="listord">Get List of Orders</button>
+        <hr>
+        <br>
+        <label id="custlioforddis">Display Customer List of Orders here</label>
+    </section>
+</body>
+</html>

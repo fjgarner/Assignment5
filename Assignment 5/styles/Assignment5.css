@@ -1,0 +1,38 @@
+section.custlist
+{
+    visibility: hidden;
+    display: block;
+    overflow: auto;
+    width: 600px;
+}
+
+section.custordhis
+{
+    visibility: hidden;
+    display: block;
+    overflow: auto;
+    width: 600px;
+}
+
+section.custlioford
+{
+    visibility: hidden;
+    display: block;
+    overflow: auto;
+    width: 600px;
+}
+
+h1
+{
+    text-align: center;
+}
+
+section.custordhis button
+{
+    margin-left: 196px;
+}
+
+section.custlioford button
+{
+    margin-left: 196px;
+}
